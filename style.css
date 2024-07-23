@@ -9,37 +9,12 @@
     --outline: .1rem solid rgba(0, 0, 0.1);
 }
 
-body {
-    background: rgb(211, 211, 211);
-
-}
-
-.header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    display: flex;
-    align-items: center;
-    border: 0px solid;
-    justify-content: space-between;
-    padding: 2rem 9%;
-    background: white;
-}
-
-.header .logo {
-    font-size: 2.5rem;
-    font-weight: bolder;
-}
-
-.header .logo i {
-    color: rgb(255, 157, 0);
-}
 
 .header .navbar a {
-    font-size: 1.7rem;
-    margin: 0 1rem;
+    font-size: 30px;
     color: var(--black);
+    color: #666;
+
 }
 
 .header .navbar a:hover {
@@ -54,62 +29,22 @@ body {
     transition: all .2s linear;
 }
 
-html {
-    font-size: 62.5%;
-    overflow-x: hidden;
-    scroll-behavior: smooth;
-    scroll-padding-top: 7rem;
+.d-flex .btn:hover{
+    color: var(--yellow)
 }
 
-.header .icons div {
-    
-    width: 4.5rem;
-    height: 4.5rem;
-    line-height: 4.5rem;
-    border-radius: .5rem;
-    background: rgb(211, 211, 211);
-    color: var(--black);
-    font-size: 2rem;
-    text-align: center;
-    margin: 0px;
-    padding: 0px;
+.bug
+{
+    padding-left: 20px;
 }
 
-.header .icons div:hover
-{
-    background: var(--yellow);
-    color: black;
-}
-.header .srch-form
-{
-    border: 0px solid;
-    background: white;
-    border-radius: .5rem;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-
-}
-.header .srch-form input
-{
-    height: 100%;
-    width: 100%;
-    background: none;
-    text-transform: none;
-    font-size: 1.6rem;
-    color: var(--black);
-    padding: 0 1.5rem;
-
+.img{
+    width: 200px;
+    height: 200px;
+    border: 20px;
+    border-radius: 10px;
 }
 
-.header .srch-form label
-{
-    font-size: 2.2rem;
-    padding-right: 1.5rem;
-    color: var(--black);
-    cursor: pointer;
-}
-.header .srch-form label
-{
-    color: var(--yellow);
+#container{
+    height: 50px;
 }
